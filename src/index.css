@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-indigo-700: hsl(245, 58%, 51%);
+  /* Overriding indigo-700 for the primary */
+  --color-primary: hsl(245, 58%, 51%);
+  --color-primary-hover: hsl(245, 58%, 45%);
+}
+
+@layer utilities {
+  /* Fix for scrollbar if needed, but not critical */
+}
